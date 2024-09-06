@@ -1,0 +1,633 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+header {
+    padding: 10px 20px;
+    max-width: 1200px;
+    border-bottom: 1px #575357 solid;
+    margin: auto;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container-services {
+    overflow: hidden;
+}
+
+
+.footer {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container nav ul li a:hover {
+    color: #f24bd9;
+}
+
+.container nav ul li a:active {
+    color: #f24bd9;
+}
+
+.container{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.container nav ul li {
+    margin-left: 30px;
+}
+
+.container nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+
+.container-main {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.container-main2 {
+    margin: 0px auto;
+    padding: 20px;
+}
+.hero-text {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 570px;
+}
+
+.hero-text p {
+    font-family: "Tinos";
+    font-size: 38px;
+    margin: 0px;
+}
+
+.subtext {
+    text-align: center;
+    max-width: 800px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    
+}
+.hero-text2 {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 570px;
+    padding-top: 50px;
+}
+
+.hero-text2 p {
+    font-family: "Tinos";
+    font-size: 38px;
+    margin: 0px;
+}
+
+.subtext2 {
+    text-align: center;
+    max-width: 800px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+.text {
+    text-align: center;
+    max-width: 800px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;}
+
+
+
+.container-image {
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.container-image img{
+    height: 800px;
+    width: auto;
+    border-radius: 25px;
+    box-shadow: 5px 16px 8px #3333333b ;
+}
+
+.container-services {
+    background-image: url(slike/marble\ desktop.png);
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 50px;
+}
+
+.container-services p {
+    font-family: "Tinos";
+    font-size: 36px;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.container-services2 {
+    background-image: url(slike/marble\ desktop.png);
+    margin: 20px auto;
+    max-width: 1200px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.container-services2 p {
+    font-family: "Tinos";
+    font-size: 36px;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+.main-text p {
+    font-size: 30px !important; 
+    margin-bottom: 10px; 
+    padding-top: 20px;
+    font-family: "Tinos", Arial;
+}
+
+.ourteam{
+    display: block;
+    justify-content: center;
+    padding: 30px;
+}
+
+.main-team {
+    padding: 20px;
+    justify-content: center;
+}
+
+.whoarewe {
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.whoarewe p {
+    padding-bottom: 30px;
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.services {
+    max-width: 450px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.services-text.animated {
+    font-size: 20px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+.heading-gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-gallery img {
+    width: 450px;
+    height: 300px;
+}
+
+
+
+.heading p {
+    background-color: #ffbae984;
+    border-radius: 25px;
+    display: inline-block;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+
+.mapa {
+background-color: rgb(221, 210, 210);
+max-width: 1600px;
+margin: auto;
+}
+
+.mapa iframe {
+    border: 0;
+    width: 100%;
+    height: 350px;
+}
+
+
+/* footer */
+
+.footer {
+    display: block;
+    justify-content: center;
+    background-color: #fce1f2; 
+    padding: 50px 0 20px 0;
+    text-align: center;
+    text-decoration: none;
+}
+.footer i {
+    font-size: 35px;
+    padding: 10px;
+    text-decoration: none !important;
+}
+
+.footer p {
+    font-size: 18px;
+}
+.footer a {
+    color: #833878;
+    text-decoration: none;
+}
+
+.footer-logo a:hover {
+    color: #ff80d5;
+    text-decoration: none;
+}
+.footer a:active {
+    color: #ffc6e2 !important; 
+}
+
+.copyright {
+    font-size: 15px !important;
+}
+
+
+
+
+/* Our Clients */
+
+
+
+.container-image-clients img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding: 40px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery-img {
+    display: inline-block;
+    text-align: center;
+}
+
+.gallery-img img{
+    max-width: 100%;
+    height: 400px;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+
+/* Our Team */ 
+.team-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.team-text {
+    flex: 1;
+}
+
+.team-image {
+    flex: 1;
+}
+
+.team-image img {
+    max-width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.team-text ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.photo-gallery {
+    animation: fadeIn 2s ease-out;
+}
+
+  /* SLIDER */
+
+  .slider-container {
+    position: relative;
+    max-width: 450px; 
+    padding: 60px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+}
+
+.slides {
+    display: flex;
+    transition: transform 1s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 30%;
+    user-select: none;
+    background-color: #00000036;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 2%;
+}
+
+.next {
+    right: 2%;
+}
+
+.prev:hover, .next:hover {
+    background-color: #db8cc58a;
+}
+
+
+
+  @media (max-width: 1024px) {
+    .team-image img {
+        max-width: 100%;
+        height: 100%;
+        border-radius: 50px;
+    }
+  }
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        border: none;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .hero-text p {
+        font-family: "Tinos";
+        font-size: 30px;
+        margin: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .subtext {
+        padding-bottom: 10px;
+        font-size: 16px;
+        
+    }
+    .container nav ul {
+        border-top: 1px #a9a6a9 solid;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+
+    .container nav ul li {
+        margin: 5px 0;
+    }
+
+    .container-main {
+        padding: 25px;
+    }
+
+    .container nav ul li {
+        margin-left: 0;
+    }
+   
+    .prev, .next {
+        font-size: 18px;
+        padding: 13px;
+    }
+    
+    .container-image img{
+        height: 100%;
+        width: 100%;
+        border-radius: 25px;
+        box-shadow: 5px 16px 8px #3333333b ;
+    }
+    .slider-container {
+        padding: 0;
+        margin: auto;
+    }
+    .slides {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .team-container {
+        flex-direction: column;
+    }
+    .team-container:nth-child(even) .team-text {
+        order: 0;
+    }
+
+    .team-container:nth-child(even) .team-image {
+        order: 1;
+    }
+
+    .team-container:nth-child(odd) .team-text {
+        order: 0;
+    }
+
+    .team-container:nth-child(odd) .team-image {
+        order: 1;
+    }
+
+    .container-services p {
+        font-family: "Tinos";
+        font-size: 30px;
+        padding: 15px;
+        margin-top: 40px;
+    }
+
+    .whoarewe.animated p {
+        font-family: Arial, Helvetica;
+        font-size: 20px;
+    }
+    .whoarewe.animated {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
+    .team-section {
+        padding: 0;
+
+    }
+    .container-services {
+        padding: 10px;
+    }
+    .container-services2 p {
+        font-size: 30px;
+    }
+
+    .subtext2 {
+        font-size: 20px;
+    }
+    
+    .hero-text2 p{
+        font-size: 30px;
+    }
+
+    .services-grid {
+        display: block;
+    }
+    
+    .main-text.animated:first-child{
+        font-size: 18px;
+        margin-bottom: 10px; 
+        padding-top: 20px;
+        font-family: "Tinos";
+    }
+    
+    .gallery-img.animated img {
+    max-width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border-radius: 30px;
+    }
+
+    .clients.animated img{
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    
+    .container-image-clients {
+        max-width: 400px;
+        width: 80%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .container-image-clients img {
+        max-width: 400px;
+        width: 80%;
+        padding: 0;
+        margin: auto;
+    }
+    
+    .footer-container p {
+        font-size: 16px;
+    }
+
+}
+    
+
+@keyframes moveUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+.animated {
+    opacity: 0; 
+    transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+
+.visible {
+    animation: moveUp 1.2s forwards; 
+}
